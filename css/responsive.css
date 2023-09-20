@@ -1,0 +1,1030 @@
+@media (min-width: 1800px) {
+  .banner-slider ul {
+    left: 250px; } }
+@media (min-width: 1400px) and (max-width: 1799px) {
+  .common-title h2 {
+    font-size: 35px; }
+
+  nav ul .nav-item .nav-link {
+    padding: 0 14px !important; }
+
+  nav .call-for-show {
+    margin-left: 40px;
+    padding: 12px 30px; }
+
+  .banner .slider-item .text h1 {
+    font-size: 60px; }
+
+  .banner-slider ul {
+    left: 10px; }
+
+  .ec-member {
+    padding-top: 110px; }
+
+  .production .production-bg {
+    height: 500px; }
+  .production .production-video {
+    height: 580px; }
+    .production .production-video .production-main .video-item .overlay .icon i {
+      width: 65px;
+      height: 40px;
+      background-color: red;
+      line-height: 40px;
+      border-radius: 10px;
+      font-size: 16px; }
+
+  .event-item .text .title {
+    font-size: 20px; }
+
+  .footer-right {
+    margin-right: 70px !important; } }
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .common-btn a {
+    padding: 15px 28px; }
+
+  .common-title h2 {
+    font-size: 35px; }
+
+  body {
+    font-size: 14px; }
+
+  header .link a {
+    font-size: 14px; }
+
+  nav ul .nav-item .nav-link {
+    padding: 0 12px !important;
+    font-size: 14px !important; }
+  nav ul .nav-item ul li a {
+    font-size: 14px !important; }
+
+  nav .call-for-show {
+    margin-left: 30px;
+    font-size: 13px;
+    padding: 12px 18px; }
+
+  .navbar .navbar-brand img {
+    width: 120px; }
+
+  .banner .slider-item .text h1 {
+    font-size: 50px; }
+
+  .banner .slider-item {
+    padding: 170px 0; }
+
+  .banner-slider ul {
+    left: 10px; }
+
+  .about .image .big-image {
+    width: 546px; }
+  .about .image .sm-image {
+    bottom: -50px;
+    right: 50px;
+    width: 375px; }
+
+  .about .text {
+    padding-top: 30px;
+    padding-left: 40px; }
+
+  .ec-member {
+    padding-top: 90px; }
+
+  .ec-member-item {
+    height: 379px; }
+
+  .featured-shows .image {
+    height: 328px; }
+
+  .production .production-video .production-main .video-item .overlay .icon i {
+    width: 55px;
+    height: 35px;
+    background-color: red;
+    line-height: 36px;
+    border-radius: 8px;
+    font-size: 13px; }
+
+  .production .production-bg {
+    height: 430px; }
+
+  .production .production-video {
+    height: 510px; }
+
+  .production .production-video .production-main .video-item .text .title {
+    font-size: 15px; }
+
+  .event-item .text .title {
+    font-size: 20px; }
+
+  .small-news-item .text .read-more {
+    margin-top: 10px; }
+
+  footer .footer-title h4 {
+    font-size: 22px; }
+
+  .footer-right {
+    margin-right: 30px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  body p {
+    font-size: 14px;
+    line-height: 22px; }
+
+  header .link a {
+    font-size: 14px; }
+
+  .common-title h2 {
+    font-size: 30px; }
+
+  .common-btn a {
+    padding: 15px 20px; }
+
+  .fixed-ticket {
+    right: -4px; }
+    .fixed-ticket .tickets {
+      width: 56px; }
+    .fixed-ticket .buy-ticket {
+      top: -88px;
+      left: -32px; }
+
+  nav ul .nav-item .nav-link {
+    padding: 0 8px !important;
+    font-size: 14px !important; }
+  nav ul .nav-item ul li a {
+    font-size: 14px !important; }
+
+  nav .call-for-show {
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 9px 5px; }
+
+  .navbar .navbar-brand img {
+    width: 120px; }
+
+  .banner .slider-item .text h1 {
+    font-size: 40px; }
+
+  .banner-slider ul {
+    left: 10px; }
+
+  .banner {
+    margin: 0 0px; }
+
+  .about .image .big-image {
+    width: 456px; }
+
+  .about .image .sm-image {
+    right: 50px;
+    width: 310px; }
+
+  .about .image .sm-image button {
+    width: 65px;
+    height: 65px; }
+
+  .common-title {
+    margin-bottom: 20px; }
+
+  .about .text {
+    padding-top: 30px;
+    padding-left: 20px; }
+
+  .ec-member {
+    padding-top: 80px; }
+
+  .ec-member-item {
+    height: 323px; }
+
+  .featured-shows .image {
+    height: 271px; }
+  .featured-shows .text .title {
+    font-size: 20px; }
+
+  .production {
+    padding-top: 115px;
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+    .production .production-video .production-main .video-item .overlay .icon i {
+      width: 45px;
+      height: 30px;
+      background-color: red;
+      line-height: 30px;
+      border-radius: 7px;
+      font-size: 12px; }
+
+  .production .production-bg {
+    height: 400px; }
+
+  .production .production-video {
+    height: 480px; }
+
+  .production .production-video .production-main .video-item .text .title {
+    font-size: 14px; }
+
+  .event-item .text .title {
+    font-size: 20px; }
+
+  .event-item .buy-ticket a {
+    padding: 9px 20px; }
+
+  .event-item .text ul li {
+    line-height: 25px; }
+
+  .event-item .text .title {
+    line-height: 25px; }
+
+  .event-item .date h5 {
+    font-size: 55px; }
+
+  .small-news-item .text .title {
+    -webkit-line-clamp: 1; }
+
+  .small-news-item .text span {
+    margin: 8px 0; }
+
+  .small-news-item .text .read-more {
+    margin-top: 8px; }
+
+  .call-for-show .call-for-show-bg .text h4 {
+    font-size: 35px; }
+
+  .gallery .gallery-bg .gallery-button ul li .nav-link {
+    padding: 12px 20px;
+    font-size: 14px; }
+
+  .our-activities .activities-bg .activities-item .text h4 {
+    font-size: 20px; }
+
+  footer .footer-title h4 {
+    font-size: 22px; }
+
+  footer .footer-contact-us ul li {
+    line-height: 30px; }
+
+  footer .quick-links ul li {
+    line-height: 30px; }
+
+  footer .footer-ticket ul li {
+    line-height: 30px; }
+
+  .footer-right p {
+    padding-right: 30px; }
+
+  .contact-page .contact-info .info-item {
+    min-height: 252px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  body p {
+    font-size: 14px;
+    line-height: 22px; }
+
+  .common-title {
+    margin-bottom: 20px; }
+    .common-title h2 {
+      font-size: 25px;
+      line-height: 40px; }
+    .common-title p {
+      margin-bottom: 5px; }
+
+  .common-btn a {
+    padding: 12px 15px; }
+
+  .navbar .navbar-brand img {
+    width: 80px; }
+
+  .banner {
+    margin: 0; }
+
+  .banner .slider-item {
+    padding: 150px 0; }
+    .banner .slider-item .text h1 {
+      font-size: 35px;
+      margin-bottom: 35px; }
+    .banner .slider-item .text p {
+      margin-bottom: 10px;
+      font-size: 14px; }
+
+  .banner-slider ul {
+    bottom: 25px; }
+
+  .banner-slider ul {
+    left: 30px; }
+
+  .about {
+    padding-top: 60px; }
+    .about .image .big-image {
+      width: 100% !important; }
+    .about .image .sm-image {
+      right: 35px;
+      bottom: -45px;
+      width: 70% !important; }
+      .about .image .sm-image button {
+        width: 65px;
+        height: 65px;
+        left: 50%; }
+    .about .text {
+      padding: 0 15px; }
+
+  .fixed-ticket {
+    width: 42px;
+    right: -4px; }
+    .fixed-ticket .buy-ticket {
+      padding: 10px 10px;
+      min-width: 100px;
+      top: -71px;
+      left: -29px; }
+    .fixed-ticket .tickets {
+      width: 46px;
+      height: 45px;
+      line-height: 35px;
+      font-size: 20px; }
+
+  .ec-member {
+    padding-top: 80px; }
+
+  .ec-member-item {
+    height: 318px; }
+    .ec-member-item .text h4 {
+      font-size: 20px;
+      margin-bottom: 5px; }
+
+  .featured-shows .text .more-info {
+    font-size: 14px; }
+    .featured-shows .text .more-info::before {
+      top: 11px;
+      left: calc(100% - -10px);
+      width: 20px; }
+  .featured-shows .text .title {
+    font-size: 20px; }
+  .featured-shows .text span {
+    font-size: 14px; }
+
+  .feature-item .image {
+    height: 271px; }
+
+  .production {
+    padding: 100px 0 0; }
+    .production .production-bg {
+      height: inherit;
+      background: unset !important; }
+    .production .production-video {
+      height: inherit;
+      padding: 30px; }
+      .production .production-video .production-main .video-item .overlay .icon i {
+        width: 50px;
+        height: 35px;
+        background-color: red;
+        line-height: 35px;
+        border-radius: 6px;
+        font-size: 12px; }
+      .production .production-video .production-main .video-item .text .title {
+        font-size: 14px;
+        padding: 5px 6px; }
+
+  .our-activities {
+    padding-top: 0; }
+    .our-activities .activities-bg .activities-item .text h4 {
+      font-size: 20px; }
+
+  .event-item .text .title {
+    font-size: 20px; }
+
+  .event-item .buy-ticket a {
+    padding: 8px;
+    text-align: center;
+    font-size: 12px; }
+
+  .event-item .text ul li {
+    line-height: 20px;
+    font-size: 14px; }
+
+  .event-item .text .title {
+    line-height: 22px;
+    font-size: 20px; }
+
+  .event-item .date h5 {
+    font-size: 30px; }
+
+  .event-item .date h5 span {
+    font-size: 14px; }
+
+  .small-news-item .text .title {
+    -webkit-line-clamp: 1; }
+  .small-news-item .text p {
+    line-height: 18px;
+    font-size: 15px;
+    -webkit-line-clamp: 3; }
+  .small-news-item .text span {
+    margin: 5px 0; }
+  .small-news-item .text .read-more {
+    margin-top: 6px; }
+
+  .small-news-item .text span {
+    font-size: 12px; }
+
+  .small-news-item .text .read-more {
+    font-size: 14px; }
+
+  .call-for-show .call-for-show-bg .text h4 {
+    font-size: 30px; }
+  .call-for-show .call-for-show-bg .text .call-for-show-btn {
+    padding: 10px 25px; }
+
+  .gallery .gallery-bg .gallery-button ul li .nav-link {
+    padding: 11px;
+    font-size: 13px; }
+
+  .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
+    font-size: 16px; }
+
+  .gallery .gallery-bg .view-all a {
+    padding: 10px 30px; }
+
+  .client .client-bg .client-item {
+    padding: 35px; }
+
+  footer .footer-title {
+    margin-bottom: 15px; }
+    footer .footer-title h4 {
+      font-size: 17px; }
+
+  footer .footer-contact-us ul li {
+    line-height: 25px; }
+
+  footer .quick-links ul li {
+    line-height: 25px; }
+
+  footer .footer-ticket ul li {
+    line-height: 25px; }
+
+  footer .footer-bottom p {
+    font-size: 15px; }
+
+  .footer-right p {
+    padding-right: 30px; }
+
+  .bread-crumb .info h1 {
+    font-size: 32px; }
+
+  .contact-page .contact-info .contact-title h2 {
+    font-size: 40px; }
+
+  .contact-page .contact-info .contact-title {
+    margin-bottom: 36px; }
+
+  .contact-page .contact-info .info-item {
+    margin-top: 24px; }
+
+  .content-page .mid-text h4 {
+    font-size: 19px;
+    line-height: 24px; }
+
+  .event-details-page .right-part {
+    margin-top: 24px; }
+
+  .sticky {
+    position: unset; }
+
+  .news-details-page .news-right {
+    position: unset; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  body p {
+    font-size: 14px !important;
+    line-height: 22px; }
+
+  .common-title {
+    margin-bottom: 35px; }
+    .common-title h2 {
+      font-size: 28px;
+      line-height: 30px;
+      text-align: center !important; }
+    .common-title p {
+      margin-bottom: 5px;
+      text-align: center !important; }
+
+  .common-btn a {
+    padding: 10px 15px;
+    font-size: 13px; }
+
+  .banner {
+    margin: 0; }
+
+  .banner .slider-item {
+    padding: 110px 0; }
+    .banner .slider-item .text h1 {
+      font-size: 28px;
+      margin-bottom: 25px; }
+    .banner .slider-item .text p {
+      margin-bottom: 8px;
+      font-size: 11px; }
+
+  .banner-slider ul {
+    bottom: 25px; }
+
+  .banner-slider ul {
+    left: 30px; }
+
+  .fixed-ticket {
+    width: 46px;
+    right: -6px; }
+    .fixed-ticket .buy-ticket {
+      padding: 10px 10px;
+      min-width: 100px;
+      top: -70px;
+      left: -30px; }
+      .fixed-ticket .buy-ticket p {
+        font-size: 15px;
+        line-height: 20px; }
+    .fixed-ticket .tickets {
+      width: 40px;
+      height: 45px;
+      line-height: 35px;
+      font-size: 20px; }
+      .fixed-ticket .tickets img {
+        width: 20px; }
+
+  .about {
+    padding-top: 50px; }
+    .about .text {
+      padding: 0; }
+    .about .image {
+      padding-top: 15px; }
+      .about .image .big-image {
+        width: inherit; }
+      .about .image .sm-image {
+        right: 0px;
+        bottom: -80px; }
+        .about .image .sm-image img {
+          width: 80% !important; }
+        .about .image .sm-image button {
+          width: 65px;
+          height: 65px;
+          left: 40%; }
+
+  .ec-member {
+    padding-top: 140px; }
+
+  .ec-member-item {
+    height: 357px; }
+    .ec-member-item .text h4 {
+      font-size: 22px;
+      margin-bottom: 5px; }
+    .ec-member-item .text .social a {
+      width: 35px;
+      height: 35px;
+      line-height: 35px; }
+
+  .featured-shows {
+    padding-top: 50px; }
+
+  .featured-shows .text .more-info {
+    font-size: 12px; }
+    .featured-shows .text .more-info::before {
+      display: none; }
+  .featured-shows .text .title {
+    font-size: 17px; }
+  .featured-shows .text span {
+    font-size: 12px;
+    margin-bottom: 0; }
+
+  .feature-item .image {
+    height: 309px; }
+
+  .production {
+    padding: 100px 0 0; }
+    .production .production-bg {
+      height: inherit;
+      background: unset !important; }
+    .production .production-video {
+      height: inherit;
+      padding: 30px; }
+      .production .production-video .production-main .video-item .overlay .icon i {
+        width: 42px;
+        height: 30px;
+        background-color: red;
+        line-height: 30px;
+        border-radius: 6px;
+        font-size: 12px; }
+      .production .production-video .production-main .video-item .text .title {
+        font-size: 15px;
+        padding: 5px 6px; }
+
+  .our-activities {
+    padding-top: 0; }
+    .our-activities .activities-bg {
+      padding: 50px; }
+      .our-activities .activities-bg .activities-item .text h4 {
+        font-size: 18px; }
+      .our-activities .activities-bg .activities-item .icon {
+        width: 90px;
+        height: 90px; }
+
+  .events {
+    padding-top: 50px; }
+
+  .event-item .text {
+    padding-top: 20px; }
+    .event-item .text .title {
+      font-size: 20px;
+      line-height: 22px; }
+    .event-item .text ul li {
+      line-height: 22px;
+      font-size: 15px; }
+  .event-item .buy-ticket a {
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 13px; }
+  .event-item .date h5 {
+    font-size: 50px; }
+
+  .news {
+    padding-top: 50px; }
+
+  .small-news-item .text .title {
+    -webkit-line-clamp: 1;
+    font-size: 20px;
+    line-height: 20px; }
+  .small-news-item .text p {
+    line-height: 22px;
+    font-size: 15px;
+    -webkit-line-clamp: 3; }
+  .small-news-item .text span {
+    margin: 5px 0; }
+  .small-news-item .text .read-more {
+    margin-top: 6px; }
+
+  .big-news-item .text .read-more {
+    margin-top: 10px; }
+
+  .small-news-item .text span {
+    font-size: 12px; }
+
+  .call-for-show {
+    padding-top: 50px; }
+    .call-for-show .call-for-show-bg {
+      padding: 50px 0; }
+      .call-for-show .call-for-show-bg .text h4 {
+        font-size: 25px; }
+      .call-for-show .call-for-show-bg .text .call-for-show-btn {
+        padding: 10px 25px; }
+
+  .gallery .gallery-bg {
+    padding: 50px 0; }
+    .gallery .gallery-bg .gallery-button ul li .nav-link {
+      padding: 10px 12px;
+      font-size: 11px; }
+    .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
+      font-size: 15px; }
+    .gallery .gallery-bg .gallery-main .video-gallery .video-item .overlay h5 {
+      font-size: 16px; }
+    .gallery .gallery-bg .view-all a {
+      padding: 10px 30px; }
+
+  .client .client-bg .client-item {
+    padding: 35px; }
+
+  footer .footer-title {
+    margin-bottom: 10px; }
+    footer .footer-title h4 {
+      font-size: 17px; }
+  footer .footer-contact-us ul li {
+    line-height: 25px; }
+  footer .quick-links ul li {
+    line-height: 25px; }
+  footer .footer-bottom p {
+    font-size: 12px; }
+  footer .footer-ticket ul li {
+    line-height: 25px; }
+  footer .footer-right p {
+    padding-right: 45px; }
+
+  .bread-crumb .info h1 {
+    font-size: 26px; }
+
+  .contact-page .contact-info .contact-title h2 {
+    font-size: 35px; }
+
+  .contact-page .contact-info .contact-title {
+    margin-bottom: 16px; }
+
+  .contact-page .contact-info .info-item {
+    margin-top: 24px; }
+
+  .content-page .content-main .content-box .small-image {
+    float: unset;
+    margin-right: 0;
+    margin-bottom: 24px; }
+
+  .content-page .mid-text h4 {
+    font-size: 18px;
+    line-height: 24px; }
+
+  .content-page .mid-text i {
+    display: none; }
+
+  .content-page .mid-text {
+    padding: 20px; }
+
+  .event-details-page .right-part {
+    margin-top: 24px; }
+
+  .event-details-page .text ul li {
+    font-size: 14px;
+    margin: 6px 0; }
+
+  .event-details-page .text h1 {
+    font-size: 20px; }
+
+  .event-details-page .text h3 {
+    font-size: 20px; }
+
+  .sticky {
+    position: unset; }
+
+  .news-details-page .news-right {
+    position: unset; } }
+@media (max-width: 575px) {
+  .common-title {
+    margin-bottom: 25px;
+    text-align: center !important; }
+    .common-title h2 {
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center !important; }
+    .common-title p {
+      margin-bottom: 5px;
+      text-align: center !important; }
+
+  .common-btn {
+    margin-top: 40px; }
+
+  .common-btn a {
+    padding: 10px 15px;
+    font-size: 13px; }
+
+  .logo img {
+    width: 60px; }
+
+  .banner {
+    margin: 0; }
+
+  .banner .slider-item {
+    padding: 60px 0; }
+    .banner .slider-item .text h1 {
+      font-size: 22px;
+      margin-bottom: 40px; }
+    .banner .slider-item .text p {
+      margin-bottom: 5px;
+      font-size: 10px; }
+
+  .banner-slider ul {
+    bottom: 25px;
+    left: 10px; }
+
+  .fixed-ticket {
+    width: 38px;
+    right: 0; }
+    .fixed-ticket .buy-ticket {
+      padding: 5px 10px;
+      min-width: 100px;
+      top: -68px;
+      left: -31px; }
+      .fixed-ticket .buy-ticket p {
+        font-size: 14px;
+        line-height: 28px; }
+    .fixed-ticket .tickets {
+      width: 38px;
+      height: 38px;
+      line-height: 28px;
+      font-size: 12px; }
+      .fixed-ticket .tickets img {
+        width: 18px; }
+
+  .about {
+    padding-top: 40px; }
+    .about .text {
+      padding: 0; }
+    .about .image {
+      padding-top: 20px; }
+      .about .image .big-image {
+        width: 100%; }
+      .about .image .sm-image {
+        right: -96px;
+        bottom: -80px; }
+        .about .image .sm-image img {
+          width: 70% !important; }
+        .about .image .sm-image button {
+          width: 65px;
+          height: 65px;
+          left: 36%; }
+
+  .ec-member {
+    padding-top: 120px; }
+
+  .ec-member-item {
+    height: 451px; }
+    .ec-member-item .text h4 {
+      font-size: 22px;
+      margin-bottom: 5px; }
+    .ec-member-item .text .social a {
+      width: 35px;
+      height: 35px;
+      line-height: 35px; }
+
+  .featured-shows {
+    padding-top: 40px; }
+    .featured-shows .text .more-info {
+      font-size: 12px; }
+      .featured-shows .text .more-info::before {
+        display: none; }
+    .featured-shows .text .title {
+      font-size: 17px; }
+    .featured-shows .text span {
+      font-size: 12px;
+      margin-bottom: 0; }
+
+  .feature-item .image {
+    height: auto; }
+
+  .production {
+    padding: 80px 0 0; }
+    .production .production-bg {
+      height: inherit;
+      background: unset !important; }
+    .production .production-video {
+      height: inherit;
+      padding: 30px; }
+      .production .production-video .production-main .video-item .overlay .icon i {
+        width: 42px;
+        height: 30px;
+        background-color: red;
+        line-height: 30px;
+        border-radius: 6px;
+        font-size: 12px; }
+      .production .production-video .production-main .video-item .text .title {
+        font-size: 15px;
+        padding: 5px 6px; }
+
+  .our-activities {
+    padding-top: 0; }
+    .our-activities .activities-bg {
+      padding: 40px 0; }
+      .our-activities .activities-bg .activities-item .text h4 {
+        font-size: 18px; }
+      .our-activities .activities-bg .activities-item .icon {
+        width: 90px;
+        height: 90px; }
+
+  .events {
+    padding-top: 40px; }
+
+  .event-item {
+    padding: 20px 20px; }
+    .event-item .text {
+      padding-top: 20px; }
+      .event-item .text .title {
+        font-size: 20px;
+        line-height: 24px; }
+      .event-item .text ul li {
+        line-height: 22px; }
+    .event-item .buy-ticket {
+      text-align: left !important;
+      padding-top: 20px; }
+      .event-item .buy-ticket a {
+        padding: 7px 10px;
+        text-align: center !important;
+        font-size: 12px; }
+    .event-item .date h5 {
+      font-size: 50px; }
+
+  .news {
+    padding-top: 40px; }
+
+  .small-news-item .text .title {
+    -webkit-line-clamp: 1;
+    padding-top: 15px; }
+  .small-news-item .text p {
+    line-height: 22px;
+    font-size: 15px;
+    -webkit-line-clamp: 3; }
+  .small-news-item .text span {
+    margin: 5px 0;
+    font-size: 12px; }
+  .small-news-item .text .read-more {
+    margin-top: 6px; }
+
+  .big-news-item .text .read-more {
+    margin-top: 10px; }
+
+  .call-for-show {
+    padding-top: 40px; }
+    .call-for-show .call-for-show-bg .text h4 {
+      font-size: 25px; }
+    .call-for-show .call-for-show-bg .text .call-for-show-btn {
+      padding: 10px 25px;
+      font-size: 13px; }
+
+  .gallery .gallery-bg {
+    padding: 40px 0; }
+    .gallery .gallery-bg .gallery-button ul li .nav-link {
+      padding: 10px 14px;
+      font-size: 13px; }
+    .gallery .gallery-bg .gallery-button {
+      justify-content: center !important; }
+    .gallery .gallery-bg .gallery-main .photo-gallery .photo-item .image .overlay h5 {
+      font-size: 15px; }
+    .gallery .gallery-bg .gallery-main .video-gallery .video-item .overlay h5 {
+      font-size: 16px; }
+    .gallery .gallery-bg .view-all a {
+      padding: 10px 14px;
+      font-size: 13px; }
+
+  .client .client-bg .client-item {
+    padding: 50px; }
+
+  footer .footer-title {
+    margin-bottom: 10px; }
+    footer .footer-title h4 {
+      font-size: 20px; }
+  footer .footer-contact-us ul li {
+    line-height: 22px;
+    font-size: 14px; }
+  footer .footer-contact-us ul li a {
+    font-size: 14px; }
+  footer .quick-links ul li {
+    line-height: 22px; }
+  footer .quick-links ul li a {
+    font-size: 14px; }
+  footer .footer-bottom p {
+    font-size: 15px; }
+  footer .footer-ticket ul li {
+    line-height: 22px;
+    font-size: 14px; }
+
+  .footer-right {
+    text-align: left !important; }
+
+  .bread-crumb .info h1 {
+    font-size: 26px; }
+
+  .contact-page .contact-info .contact-title h2 {
+    font-size: 24px; }
+
+  .contact-page .contact-info .contact-title {
+    margin-bottom: 16px; }
+
+  .contact-page .contact-info .info-item {
+    margin-top: 24px; }
+
+  .contact-page .contact-map {
+    height: 240px; }
+
+  .content-page .content-main {
+    padding: 14px; }
+
+  .content-page .content-main .content-box .small-image {
+    float: unset;
+    margin-right: 0;
+    margin-bottom: 24px; }
+
+  .content-page .mid-text h4 {
+    font-size: 18px;
+    line-height: 24px; }
+
+  .content-page .mid-text i {
+    display: none; }
+
+  .content-page .mid-text {
+    padding: 20px; }
+
+  .ec-member-list .ec-member-item {
+    height: auto; }
+
+  .ec-member-list .ec-member-item:hover .text {
+    transform: unset; }
+
+  .ec-member-list .ec-member-item .text .social {
+    opacity: unset;
+    visibility: unset; }
+
+  .event-details-page .right-part {
+    margin-top: 24px; }
+
+  .event-details-page .text ul li {
+    font-size: 14px;
+    margin: 6px 0; }
+
+  .event-details-page .text h1 {
+    font-size: 20px; }
+
+  .event-details-page .text h3 {
+    font-size: 20px; }
+
+  .sticky {
+    position: unset; }
+
+  .news-details-page .news-right {
+    position: unset; }
+
+  .news-details-page .news-left .text {
+    padding: 15px; }
+
+  .news-details-page .news-left .text blockquote {
+    padding: 22px; } }
+
+/*# sourceMappingURL=responsive.css.map */

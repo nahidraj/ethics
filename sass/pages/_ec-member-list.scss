@@ -1,0 +1,10 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.ec-member-list {
+  padding: 60px 0 60px 0;
+
+  .ec-member-item {
+    margin-bottom: 30px;
+  }
+}

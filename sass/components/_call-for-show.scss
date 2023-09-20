@@ -1,0 +1,39 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.call-for-show {
+  padding-top: 80px;
+
+  .call-for-show-bg {
+    background-color: $themeColor;
+    padding: 60px 0;
+
+    .text {
+      h4 {
+        @include font(38px, 700);
+        color: $white;
+      }
+
+      p {
+        color: $white;
+        margin: 24px 0;
+      }
+
+      .call-for-show-btn {
+        background-color: $white;
+        padding: 14px 40px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 700;
+        color: $themeColor;
+        text-transform: uppercase;
+        transition: all linear .2s;
+        box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+        &:hover{
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+}

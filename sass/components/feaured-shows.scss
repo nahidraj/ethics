@@ -1,0 +1,63 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.featured-shows {
+  padding-top: 80px;
+
+  .feature-item {
+    margin: 0 12px;
+  }
+
+  .image {
+    height: 384px;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .text {
+    margin-top: 20px;
+
+    .title {
+      @include font(22px, 500);
+      color: $black;
+      transition: all linear .2s;
+
+      &:hover {
+        color: $themeColor;
+      }
+    }
+
+    span {
+      color: #bababa;
+      @include font(15px, 500);
+      text-transform: uppercase;
+      margin: 5px 0 10px;
+    }
+
+    .more-info {
+      @include font(16px, 500);
+      color: $themeColor;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        top: 13px;
+        left: calc(100% - -19px);
+        width: 37px;
+        height: 2px;
+        background-color: $themeColor;
+        content: "";
+        transition: all 0.3s ease 0s;
+      }
+
+      &:hover {
+        &::before {
+          left: calc(100% - -40px);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.fixed-ticket {
+  position: fixed;
+  top: 56%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 999;
+  width: 60px;
+  cursor: pointer;
+  animation: bounce2 2s ease infinite;
+
+  .tickets {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    background-color: $secondary;
+    color: $white;
+    font-size: 20px;
+  }
+
+  .buy-ticket {
+    background-color: #293047;
+    padding: 17px 20px;
+    min-width: 120px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: -90px;
+    left: -30px;
+
+    p {
+      @include font(16px, 500);
+      color: $white;
+    }
+  }
+}
+
+
+@keyframes bounce2 {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+header {
+  background-color: $black;
+  padding: 0 48px;
+
+  .social {
+    a {
+      width: 32px;
+      height: 32px;
+      border: 1px solid $white;
+      text-align: center;
+      line-height: 32px;
+      color: $white;
+      margin-right: 4px;
+      transition: all linear .2s;
+
+      &:hover {
+        background-color: $themeColor;
+        border-color: $themeColor;
+      }
+    }
+  }
+
+  .link {
+    a {
+      color: $white;
+      margin-left: 24px;
+      @include font(15px, 700);
+      text-decoration: underline;
+      line-height: 52px;
+      transition: all linear .2s;
+
+      &:hover {
+        color: $themeColor;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.client {
+  // padding-top: 80px;
+
+  .client-bg {
+    background-color: #1A1919;
+    .client-item{
+      padding: 50px;
+    }
+  }
+}

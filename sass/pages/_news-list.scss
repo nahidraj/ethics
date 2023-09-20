@@ -1,0 +1,10 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.news-list {
+  padding: 60px 0;
+
+  .small-news-item {
+    margin-bottom: 24px;
+  }
+}

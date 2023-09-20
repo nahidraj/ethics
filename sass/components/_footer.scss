@@ -1,0 +1,91 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+footer {
+  background-color: $black;
+  padding: 50px 0 30px 0;
+
+  .footer-title {
+    margin-bottom: 24px;
+
+    h4 {
+      @include font(24px, 700);
+      color: $white;
+    }
+  }
+
+  .footer-contact-us {
+    ul {
+      li {
+        @include font(15px, 400);
+        color: $white;
+        line-height: 34px;
+
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  .quick-links {
+    ul {
+      li {
+        line-height: 34px;
+
+        a {
+          @include font(15px, 400);
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .footer-ticket {
+    ul {
+      li {
+        @include font(15px, 400);
+        color: $white;
+        line-height: 34px;
+      }
+    }
+  }
+
+  .footer-bottom {
+    padding-top: 60px;
+
+    p {
+      color: $white;
+
+      a {
+        color: $white;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+#button {
+  display: inline-block;
+  background-color: $themeColor;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: $white;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 15px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}

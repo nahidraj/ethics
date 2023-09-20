@@ -1,0 +1,52 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.bread-crumb {
+
+  .bread-crumb-bg {
+    padding: 40px 0;
+    background-color: $black;
+  }
+
+  .info {
+    h1 {
+      @include font(44px, 500);
+      color: $white;
+    }
+
+    ul {
+      margin-top: 12px;
+
+      li {
+        display: inline-block;
+        @include font(14px, 500);
+        text-transform: uppercase;
+        margin: 0 10px;
+        color: $white;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          top: 0;
+          left: -15px;
+          content: "/";
+        }
+
+        &:first-child {
+          &::before {
+            display: none;
+          }
+        }
+
+        a {
+          color: $white;
+          transition: all linear .2s;
+
+          &:hover {
+            color: $themeColor;
+          }
+        }
+      }
+    }
+  }
+}

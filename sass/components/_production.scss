@@ -1,0 +1,86 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.production {
+  padding: 0 60px;
+  padding-top: 114px;
+
+  .production-bg {
+    background-repeat: no-repeat !important;
+    background-position: top left;
+    background-size: cover !important;
+    height: 700px;
+  }
+
+  .production-video {
+    width: 100%;
+    height: 780px;
+    background-color: $black;
+    margin-top: -40px;
+    padding: 50px;
+
+    .production-main {
+      .video-item {
+        margin-bottom: 24px;
+        border: 2px solid $white;
+        border-radius: 10px;
+        background-color: $white;
+        overflow: hidden;
+
+        .image {
+          position: relative;
+          overflow: hidden;
+        }
+
+        img {
+          border-radius: 10px;
+          transition: all 0.3s ease 0s;
+        }
+
+        .overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+
+          .icon {
+            i {
+              width: 80px;
+              height: 54px;
+              background-color: red;
+              text-align: center;
+              line-height: 54px;
+              border-radius: 10px;
+              color: $white;
+              font-size: 20px;
+
+              &:hover {
+                background-color: #b30000;
+              }
+            }
+          }
+        }
+
+        .text {
+          .title {
+            color: $black;
+            @include font(18px, 600);
+            padding: 8px 14px;
+            transition: all linear .2s;
+
+            &:hover {
+              color: $themeColor;
+            }
+          }
+        }
+
+        &:hover {
+          img {
+            transform: scale(1.1) rotate(3deg);
+          }
+        }
+      }
+    }
+  }
+}

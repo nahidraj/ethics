@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+@import "../variable/variable";
+@import "../mixin/font";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #877c6d;
+  @include font(15px, 500);
+  line-height: 26px;
+}
+
+span,
+small {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  @include font(15px, 400);
+  color: $black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.common-btn {
+
+  a {
+    @include font(14px, 500);
+    color: $white;
+    background-color: $secondary;
+    padding: 20px 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 99;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    letter-spacing: 2px;
+
+    &:hover {
+      background-color: $themeColor;
+      color: $white;
+    }
+  }
+}
+
+.common-title {
+  margin-bottom: 40px;
+
+  p {
+    color: $themeColor;
+    @include font(15px, 700);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  h2 {
+    @include font(40px, 900);
+    line-height: 55px;
+    text-transform: uppercase;
+  }
+}
