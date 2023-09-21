@@ -1976,14 +1976,14 @@ footer .footer-bottom p a {
 }
 
 .featured-shows-list {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .featured-shows-list .feature-item {
   margin: 0 0;
 }
 
 .production-list {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .production-list .production-main .video-item {
   margin-bottom: 0;
@@ -2002,7 +2002,7 @@ footer .footer-bottom p a {
 }
 
 .photo-gallery-list {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .photo-gallery-list .photo-item {
   margin: 0;
@@ -2010,7 +2010,7 @@ footer .footer-bottom p a {
 }
 
 .photo-gallery-view {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .photo-gallery-view .photo-item {
   margin: 0;
@@ -2040,7 +2040,7 @@ footer .footer-bottom p a {
 }
 
 .video-gallery-list {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .video-gallery-list .video-item {
   margin: 0;
@@ -2048,7 +2048,7 @@ footer .footer-bottom p a {
 }
 
 .video-gallery-view {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .video-gallery-view .video-item-view {
   margin: 0;
@@ -2189,6 +2189,73 @@ footer .footer-bottom p a {
   color: #ffffff;
   border-radius: 5px;
   border: 0;
+}
+
+.fetured-shows-details {
+  padding: 60px 0;
+}
+.fetured-shows-details .text h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.fetured-shows-details .text ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+  padding-right: 16px;
+  position: relative;
+  color: #ce172d;
+}
+.fetured-shows-details .text ul li::before {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 12px;
+  background-color: #ce172d;
+  content: "";
+}
+.fetured-shows-details .text ul li:last-child::before {
+  display: none;
+}
+.fetured-shows-details .text .details {
+  font-size: 16px;
+  font-weight: 500;
+  color: #151414;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.fetured-shows-details .text .more-info {
+  border-top: 1px solid #d1d1d1;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.fetured-shows-details .text .more-info .info {
+  position: relative;
+}
+.fetured-shows-details .text .more-info .info::before {
+  position: absolute;
+  top: 6px;
+  left: -21px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ce172d;
+  content: "";
+}
+.fetured-shows-details .text .more-info .info h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.fetured-shows-details .text .more-info .info span {
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 4px;
 }
 
 /*# sourceMappingURL=style.css.map */

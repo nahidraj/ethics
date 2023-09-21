@@ -1,0 +1,80 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.fetured-shows-details {
+  padding: 60px 0;
+
+  .text {
+    h3 {
+      @include font(28px, 700);
+      margin-bottom: 26px;
+    }
+
+    ul {
+      li {
+        display: inline-block;
+        @include font(16px, 600);
+        margin-right: 10px;
+        padding-right: 16px;
+        position: relative;
+        color: $themeColor;
+
+        &::before {
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 2px;
+          height: 12px;
+          background-color: $themeColor;
+          content: "";
+        }
+
+        &:last-child {
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .details {
+      @include font(16px, 500);
+      color: $black;
+      margin-top: 30px;
+      line-height: 30px;
+    }
+
+    .more-info {
+      border-top: 1px solid #d1d1d1;
+      margin-top: 30px;
+      padding-top: 30px;
+      padding-left: 20px;
+
+      .info {
+        position: relative;
+
+        &::before {
+          position: absolute;
+          top: 6px;
+          left: -21px;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: $themeColor;
+          content: ""
+        }
+
+        h5 {
+          @include font(18px, 700);
+        }
+
+        span {
+          @include font(15px, 500);
+          font-style: italic;
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+}
