@@ -47,24 +47,24 @@ $(function () {
     prevArrow: '<i class="fas fa-long-arrow-alt-left icon left"></i>',
     nextArrow: '<i class="fas fa-long-arrow-alt-right icon right"></i>',
     responsive: [{
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 3,
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        }
       }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-      }
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 1,
-      }
-    }
-  ]
+    ]
   })
 
   // feature slider
@@ -81,24 +81,24 @@ $(function () {
     cssEase: "linear",
     pauseOnHover: true,
     responsive: [{
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 3,
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+        }
       }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-      }
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 2,
-      }
-    }
-  ]
+    ]
   })
   // client slider
   $('.client-slider').slick({
@@ -114,24 +114,24 @@ $(function () {
     cssEase: "linear",
     pauseOnHover: true,
     responsive: [{
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 4,
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+        }
       }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 3,
-      }
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 2,
-      }
-    }
-  ]
+    ]
   })
 
 
@@ -153,6 +153,9 @@ $(function () {
     }, 0);
   });
 
+  $(".js-select2").select2({
+    closeOnSelect: true
+  });
   // gallery popup js
   $('.parent-container').magnificPopup({
     delegate: 'a',

@@ -1,0 +1,39 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.photo-gallery-view {
+  padding: 40px 0;
+
+  .photo-item {
+    margin: 0;
+    border: 0;
+  }
+
+  .photo-view {
+    .photo-view-overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+      opacity: 0;
+      transition: all linear .2s;
+
+      i {
+        width: 45px;
+        height: 45px;
+        background-color: $themeColor;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 45px;
+        color: $white;
+        font-size: 18px;
+      }
+    }
+    &:hover{
+      .photo-view-overlay{
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+}

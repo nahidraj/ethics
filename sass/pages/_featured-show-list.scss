@@ -1,0 +1,10 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.featured-shows-list {
+  padding: 40px 0;
+
+  .feature-item {
+    margin: 0 0;
+  }
+}

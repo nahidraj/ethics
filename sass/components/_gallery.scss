@@ -28,77 +28,6 @@
       }
     }
 
-    .gallery-main {
-      .photo-gallery {
-        .photo-item {
-          margin-bottom: 24px;
-
-          .image {
-            border: 1px solid $white;
-            position: relative;
-            overflow: hidden;
-
-            .overlay {
-              width: 100%;
-              background-color: $themeColor;
-              position: absolute;
-              bottom: 0;
-              left: 0;
-              padding: 20px;
-              text-align: center;
-              transform: translateY(100%);
-              transition: all 0.3s ease 0s;
-
-              h5 {
-                @include font(18px, 600);
-                color: $white;
-              }
-            }
-
-            &:hover {
-              .overlay {
-                transform: translateY(0);
-              }
-            }
-          }
-        }
-      }
-
-      .video-gallery {
-        .video-item {
-          margin-bottom: 24px;
-
-          .image {
-            position: relative;
-            overflow: hidden;
-            border: 1px solid $white;
-          }
-
-          .overlay {
-            width: 100%;
-            background-color: $themeColor;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            padding: 20px;
-            text-align: center;
-            transform: translateY(100%);
-            transition: all 0.3s ease 0s;
-
-            h5 {
-              @include font(18px, 600);
-              color: $white;
-            }
-          }
-
-          &:hover {
-            .overlay {
-              transform: translateY(0);
-            }
-          }
-        }
-      }
-    }
 
     .view-all {
       margin-top: 10px;
@@ -118,6 +47,76 @@
           background-color: $themeColor;
           color: $white;
         }
+      }
+    }
+  }
+}
+
+.photo-gallery {
+  .photo-item {
+    margin-bottom: 24px;
+
+    .image {
+      border: 1px solid $white;
+      position: relative;
+      overflow: hidden;
+
+      .overlay {
+        width: 100%;
+        background-color: $themeColor;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+        text-align: center;
+        transform: translateY(100%);
+        transition: all 0.3s ease 0s;
+
+        h5 {
+          @include font(18px, 600);
+          color: $white;
+        }
+      }
+
+      &:hover {
+        .overlay {
+          transform: translateY(0);
+        }
+      }
+    }
+  }
+}
+
+.video-gallery {
+  .video-item {
+    margin-bottom: 24px;
+
+    .image {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid $white;
+    }
+
+    .overlay {
+      width: 100%;
+      background-color: $themeColor;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 20px;
+      text-align: center;
+      transform: translateY(100%);
+      transition: all 0.3s ease 0s;
+
+      h5 {
+        @include font(18px, 600);
+        color: $white;
+      }
+    }
+
+    &:hover {
+      .overlay {
+        transform: translateY(0);
       }
     }
   }

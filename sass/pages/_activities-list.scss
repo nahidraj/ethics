@@ -1,0 +1,13 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.activities-list {
+  padding: 40px 0;
+
+  .activities-item{
+    .col-lg{
+      width: 20% !important;
+      flex-wrap: wrap;
+    }
+  }
+}

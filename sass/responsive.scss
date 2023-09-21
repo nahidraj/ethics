@@ -156,9 +156,6 @@
 
   // ec member part end
   // featured shows part start
-  .featured-shows .image {
-    height: 328px;
-  }
 
   // featured shows part end
 
@@ -315,9 +312,6 @@
   }
 
   .featured-shows {
-    .image {
-      height: 271px;
-    }
 
     .text .title {
       font-size: 20px;
@@ -585,11 +579,6 @@
     }
   }
 
-  .feature-item {
-    .image {
-      height: 271px;
-    }
-  }
 
 
   // production css
@@ -969,11 +958,6 @@
     }
   }
 
-  .feature-item {
-    .image {
-      height: 309px;
-    }
-  }
 
   // show css end
   // production css
@@ -1426,12 +1410,6 @@
     }
   }
 
-  .feature-item {
-    .image {
-      height: auto;
-    }
-  }
-
   // show css end
   // production css
   .production {
@@ -1757,5 +1735,19 @@
   }
 
   // news details page end
+
+  .membership-form .form-main .title {
+    padding: 20px 30px 20px;
+  }
+
+  .membership-form .form-main .title h3 {
+    font-size: 22px;
+  }
+
+  .membership-form .form-main .form fieldset h3 {
+    left: 14px;
+    font-size: 18px;
+    padding: 3px 12px;
+  }
 
 }

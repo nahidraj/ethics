@@ -1,0 +1,10 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.photo-gallery-list {
+  padding: 40px 0;
+  .photo-item{
+    margin: 0;
+    border: 0;
+  }
+}
